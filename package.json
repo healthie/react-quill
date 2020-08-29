@@ -51,7 +51,8 @@
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "quill": "github:healthie/quill#develop",
-    "react-dom-factories": "^1.0.0"
+    "react-dom-factories": "^1.0.0",
+    "webpack": "^1.4.13"
   },
   "peerDependencies": {
     "react": "^0.14.9 || ^15.3.0 || ^16.0.0"
