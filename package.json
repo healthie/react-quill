@@ -19,9 +19,9 @@
   "scripts": {
     "test": "make test",
     "build": "./release.sh",
-    "prepack": "make build",
+    "prepack": "./release.sh",
     "postpack": "make clean",
-    "prepublish": "make build",
+    "prepublish": "./release.sh",
     "postpublish": "make clean"
   },
   "engines": {
