@@ -18,7 +18,7 @@
   "types": "types.d.ts",
   "scripts": {
     "test": "make test",
-    "build": "make build",
+    "build": "./release.sh",
     "prepack": "make build",
     "postpack": "make clean",
     "prepublish": "make build",
@@ -76,6 +76,6 @@
     "travis-cov": "^0.2.5",
     "uglify-js": "^3.0.18",
     "webpack": "^1.4.13",
-    "webpack-dev-server": "^1.4.13"
+    "webpack-dev-server": "^1.4"
   }
 }
